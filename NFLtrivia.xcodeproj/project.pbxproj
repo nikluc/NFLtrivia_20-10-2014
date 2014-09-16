@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3043BF219C1A94600AF8C86 /* logosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3043BF119C1A94600AF8C86 /* logosCollectionViewController.m */; };
+		C3043BF519C1C20700AF8C86 /* myCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3043BF419C1C20700AF8C86 /* myCell.m */; };
 		C3988CC319C16D9900257D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3988CC219C16D9900257D2A /* Foundation.framework */; };
 		C3988CC519C16D9900257D2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3988CC419C16D9900257D2A /* CoreGraphics.framework */; };
 		C3988CC719C16D9900257D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3988CC619C16D9900257D2A /* UIKit.framework */; };
@@ -21,6 +23,44 @@
 		C3988CE419C16D9900257D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3988CC619C16D9900257D2A /* UIKit.framework */; };
 		C3988CEC19C16D9900257D2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3988CEA19C16D9900257D2A /* InfoPlist.strings */; };
 		C3988CEE19C16D9900257D2A /* NFLtriviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3988CED19C16D9900257D2A /* NFLtriviaTests.m */; };
+		C3988CFB19C1723B00257D2A /* facebook-logo-2_zps9777ced2.png in Resources */ = {isa = PBXBuildFile; fileRef = C3988CFA19C1723B00257D2A /* facebook-logo-2_zps9777ced2.png */; };
+		C3988CFD19C17AED00257D2A /* NFLlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988CFC19C17AED00257D2A /* NFLlogo.jpg */; };
+		C3988D1D19C186C400257D2A /* nfl1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988CFE19C186C400257D2A /* nfl1.jpg */; };
+		C3988D1E19C186C400257D2A /* nfl2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988CFF19C186C400257D2A /* nfl2.jpg */; };
+		C3988D1F19C186C400257D2A /* nfl3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0019C186C400257D2A /* nfl3.jpg */; };
+		C3988D2019C186C400257D2A /* nfl4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0119C186C400257D2A /* nfl4.jpg */; };
+		C3988D2119C186C400257D2A /* nfl5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0219C186C400257D2A /* nfl5.jpg */; };
+		C3988D2219C186C400257D2A /* nfl7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0319C186C400257D2A /* nfl7.jpg */; };
+		C3988D2319C186C400257D2A /* nfl8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0419C186C400257D2A /* nfl8.jpg */; };
+		C3988D2419C186C400257D2A /* nfl9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0519C186C400257D2A /* nfl9.jpg */; };
+		C3988D2519C186C400257D2A /* nfl10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0619C186C400257D2A /* nfl10.jpg */; };
+		C3988D2619C186C400257D2A /* nfl11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0719C186C400257D2A /* nfl11.jpg */; };
+		C3988D2719C186C400257D2A /* nfl12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0819C186C400257D2A /* nfl12.jpg */; };
+		C3988D2819C186C400257D2A /* nfl13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0919C186C400257D2A /* nfl13.jpg */; };
+		C3988D2919C186C400257D2A /* nfl14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0A19C186C400257D2A /* nfl14.jpg */; };
+		C3988D2A19C186C400257D2A /* nfl15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0B19C186C400257D2A /* nfl15.jpg */; };
+		C3988D2B19C186C400257D2A /* nfl16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0C19C186C400257D2A /* nfl16.jpg */; };
+		C3988D2C19C186C400257D2A /* nfl17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0D19C186C400257D2A /* nfl17.jpg */; };
+		C3988D2D19C186C400257D2A /* nfl18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0E19C186C400257D2A /* nfl18.jpg */; };
+		C3988D2E19C186C400257D2A /* nfl19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D0F19C186C400257D2A /* nfl19.jpg */; };
+		C3988D2F19C186C400257D2A /* nfl20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1019C186C400257D2A /* nfl20.jpg */; };
+		C3988D3019C186C400257D2A /* nfl21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1119C186C400257D2A /* nfl21.jpg */; };
+		C3988D3119C186C400257D2A /* nfl22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1219C186C400257D2A /* nfl22.jpg */; };
+		C3988D3219C186C400257D2A /* nfl23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1319C186C400257D2A /* nfl23.jpg */; };
+		C3988D3319C186C400257D2A /* nfl24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1419C186C400257D2A /* nfl24.jpg */; };
+		C3988D3419C186C400257D2A /* nfl25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1519C186C400257D2A /* nfl25.jpg */; };
+		C3988D3519C186C400257D2A /* nfl26.png in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1619C186C400257D2A /* nfl26.png */; };
+		C3988D3619C186C400257D2A /* nfl27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1719C186C400257D2A /* nfl27.jpg */; };
+		C3988D3719C186C400257D2A /* nfl28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1819C186C400257D2A /* nfl28.jpg */; };
+		C3988D3819C186C400257D2A /* nfl29.png in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1919C186C400257D2A /* nfl29.png */; };
+		C3988D3919C186C400257D2A /* nfl30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1A19C186C400257D2A /* nfl30.jpg */; };
+		C3988D3A19C186C400257D2A /* nfl31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1B19C186C400257D2A /* nfl31.jpg */; };
+		C3988D3B19C186C400257D2A /* nfl32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D1C19C186C400257D2A /* nfl32.jpg */; };
+		C3988D3D19C186E200257D2A /* nfl6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3988D3C19C186E200257D2A /* nfl6.jpg */; };
+		C3988D4019C19ACC00257D2A /* fbcredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3988D3F19C19ACB00257D2A /* fbcredentialsViewController.m */; };
+		C3988D4319C1A21000257D2A /* individualLogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3988D4219C1A21000257D2A /* individualLogoViewController.m */; };
+		C3B2E72119C2F9D3001CE834 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B2E72019C2F9D3001CE834 /* FacebookSDK.framework */; };
+		C3B2E72419C2FDD8001CE834 /* fbLoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B2E72319C2FDD8001CE834 /* fbLoginPage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +74,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3043BF019C1A94600AF8C86 /* logosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logosCollectionViewController.h; sourceTree = "<group>"; };
+		C3043BF119C1A94600AF8C86 /* logosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logosCollectionViewController.m; sourceTree = "<group>"; };
+		C3043BF319C1C20700AF8C86 /* myCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCell.h; sourceTree = "<group>"; };
+		C3043BF419C1C20700AF8C86 /* myCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCell.m; sourceTree = "<group>"; };
 		C3988CBF19C16D9900257D2A /* NFLtrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLtrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3988CC219C16D9900257D2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C3988CC419C16D9900257D2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +97,47 @@
 		C3988CE919C16D9900257D2A /* NFLtriviaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NFLtriviaTests-Info.plist"; sourceTree = "<group>"; };
 		C3988CEB19C16D9900257D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C3988CED19C16D9900257D2A /* NFLtriviaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFLtriviaTests.m; sourceTree = "<group>"; };
+		C3988CFA19C1723B00257D2A /* facebook-logo-2_zps9777ced2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-logo-2_zps9777ced2.png"; sourceTree = "<group>"; };
+		C3988CFC19C17AED00257D2A /* NFLlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NFLlogo.jpg; sourceTree = "<group>"; };
+		C3988CFE19C186C400257D2A /* nfl1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl1.jpg; sourceTree = "<group>"; };
+		C3988CFF19C186C400257D2A /* nfl2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl2.jpg; sourceTree = "<group>"; };
+		C3988D0019C186C400257D2A /* nfl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl3.jpg; sourceTree = "<group>"; };
+		C3988D0119C186C400257D2A /* nfl4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl4.jpg; sourceTree = "<group>"; };
+		C3988D0219C186C400257D2A /* nfl5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl5.jpg; sourceTree = "<group>"; };
+		C3988D0319C186C400257D2A /* nfl7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl7.jpg; sourceTree = "<group>"; };
+		C3988D0419C186C400257D2A /* nfl8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl8.jpg; sourceTree = "<group>"; };
+		C3988D0519C186C400257D2A /* nfl9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl9.jpg; sourceTree = "<group>"; };
+		C3988D0619C186C400257D2A /* nfl10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl10.jpg; sourceTree = "<group>"; };
+		C3988D0719C186C400257D2A /* nfl11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl11.jpg; sourceTree = "<group>"; };
+		C3988D0819C186C400257D2A /* nfl12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl12.jpg; sourceTree = "<group>"; };
+		C3988D0919C186C400257D2A /* nfl13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl13.jpg; sourceTree = "<group>"; };
+		C3988D0A19C186C400257D2A /* nfl14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl14.jpg; sourceTree = "<group>"; };
+		C3988D0B19C186C400257D2A /* nfl15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl15.jpg; sourceTree = "<group>"; };
+		C3988D0C19C186C400257D2A /* nfl16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl16.jpg; sourceTree = "<group>"; };
+		C3988D0D19C186C400257D2A /* nfl17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl17.jpg; sourceTree = "<group>"; };
+		C3988D0E19C186C400257D2A /* nfl18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl18.jpg; sourceTree = "<group>"; };
+		C3988D0F19C186C400257D2A /* nfl19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl19.jpg; sourceTree = "<group>"; };
+		C3988D1019C186C400257D2A /* nfl20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl20.jpg; sourceTree = "<group>"; };
+		C3988D1119C186C400257D2A /* nfl21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl21.jpg; sourceTree = "<group>"; };
+		C3988D1219C186C400257D2A /* nfl22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl22.jpg; sourceTree = "<group>"; };
+		C3988D1319C186C400257D2A /* nfl23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl23.jpg; sourceTree = "<group>"; };
+		C3988D1419C186C400257D2A /* nfl24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl24.jpg; sourceTree = "<group>"; };
+		C3988D1519C186C400257D2A /* nfl25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl25.jpg; sourceTree = "<group>"; };
+		C3988D1619C186C400257D2A /* nfl26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl26.png; sourceTree = "<group>"; };
+		C3988D1719C186C400257D2A /* nfl27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl27.jpg; sourceTree = "<group>"; };
+		C3988D1819C186C400257D2A /* nfl28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl28.jpg; sourceTree = "<group>"; };
+		C3988D1919C186C400257D2A /* nfl29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl29.png; sourceTree = "<group>"; };
+		C3988D1A19C186C400257D2A /* nfl30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl30.jpg; sourceTree = "<group>"; };
+		C3988D1B19C186C400257D2A /* nfl31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl31.jpg; sourceTree = "<group>"; };
+		C3988D1C19C186C400257D2A /* nfl32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl32.jpg; sourceTree = "<group>"; };
+		C3988D3C19C186E200257D2A /* nfl6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nfl6.jpg; sourceTree = "<group>"; };
+		C3988D3E19C19ACB00257D2A /* fbcredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbcredentialsViewController.h; sourceTree = "<group>"; };
+		C3988D3F19C19ACB00257D2A /* fbcredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fbcredentialsViewController.m; sourceTree = "<group>"; };
+		C3988D4119C1A21000257D2A /* individualLogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = individualLogoViewController.h; path = ../individualLogoViewController.h; sourceTree = "<group>"; };
+		C3988D4219C1A21000257D2A /* individualLogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = individualLogoViewController.m; path = ../individualLogoViewController.m; sourceTree = "<group>"; };
+		C3B2E72019C2F9D3001CE834 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		C3B2E72219C2FDD8001CE834 /* fbLoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fbLoginPage.h; sourceTree = "<group>"; };
+		C3B2E72319C2FDD8001CE834 /* fbLoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fbLoginPage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3988CC519C16D9900257D2A /* CoreGraphics.framework in Frameworks */,
+				C3B2E72119C2F9D3001CE834 /* FacebookSDK.framework in Frameworks */,
 				C3988CC719C16D9900257D2A /* UIKit.framework in Frameworks */,
 				C3988CC319C16D9900257D2A /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +187,7 @@
 		C3988CC119C16D9900257D2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3B2E72019C2F9D3001CE834 /* FacebookSDK.framework */,
 				C3988CC219C16D9900257D2A /* Foundation.framework */,
 				C3988CC419C16D9900257D2A /* CoreGraphics.framework */,
 				C3988CC619C16D9900257D2A /* UIKit.framework */,
@@ -112,13 +199,23 @@
 		C3988CC819C16D9900257D2A /* NFLtrivia */ = {
 			isa = PBXGroup;
 			children = (
+				C3B2E72219C2FDD8001CE834 /* fbLoginPage.h */,
+				C3B2E72319C2FDD8001CE834 /* fbLoginPage.m */,
+				C3043BF319C1C20700AF8C86 /* myCell.h */,
+				C3043BF419C1C20700AF8C86 /* myCell.m */,
+				C3043BF019C1A94600AF8C86 /* logosCollectionViewController.h */,
+				C3043BF119C1A94600AF8C86 /* logosCollectionViewController.m */,
+				C3988D3E19C19ACB00257D2A /* fbcredentialsViewController.h */,
+				C3988D3F19C19ACB00257D2A /* fbcredentialsViewController.m */,
+				C3988D4119C1A21000257D2A /* individualLogoViewController.h */,
+				C3988D4219C1A21000257D2A /* individualLogoViewController.m */,
 				C3988CD119C16D9900257D2A /* AppDelegate.h */,
 				C3988CD219C16D9900257D2A /* AppDelegate.m */,
 				C3988CD419C16D9900257D2A /* Main.storyboard */,
 				C3988CD719C16D9900257D2A /* ViewController.h */,
 				C3988CD819C16D9900257D2A /* ViewController.m */,
 				C3988CDA19C16D9900257D2A /* Images.xcassets */,
-				C3988CC919C16D9900257D2A /* Supporting Files */,
+				C3988CF719C16F4700257D2A /* Images */,
 			);
 			path = NFLtrivia;
 			sourceTree = "<group>";
@@ -150,6 +247,48 @@
 				C3988CEA19C16D9900257D2A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3988CF719C16F4700257D2A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3988D3C19C186E200257D2A /* nfl6.jpg */,
+				C3988CFE19C186C400257D2A /* nfl1.jpg */,
+				C3988CFF19C186C400257D2A /* nfl2.jpg */,
+				C3988D0019C186C400257D2A /* nfl3.jpg */,
+				C3988D0119C186C400257D2A /* nfl4.jpg */,
+				C3988D0219C186C400257D2A /* nfl5.jpg */,
+				C3988D0319C186C400257D2A /* nfl7.jpg */,
+				C3988D0419C186C400257D2A /* nfl8.jpg */,
+				C3988D0519C186C400257D2A /* nfl9.jpg */,
+				C3988D0619C186C400257D2A /* nfl10.jpg */,
+				C3988D0719C186C400257D2A /* nfl11.jpg */,
+				C3988D0819C186C400257D2A /* nfl12.jpg */,
+				C3988D0919C186C400257D2A /* nfl13.jpg */,
+				C3988D0A19C186C400257D2A /* nfl14.jpg */,
+				C3988D0B19C186C400257D2A /* nfl15.jpg */,
+				C3988D0C19C186C400257D2A /* nfl16.jpg */,
+				C3988D0D19C186C400257D2A /* nfl17.jpg */,
+				C3988D0E19C186C400257D2A /* nfl18.jpg */,
+				C3988D0F19C186C400257D2A /* nfl19.jpg */,
+				C3988D1019C186C400257D2A /* nfl20.jpg */,
+				C3988D1119C186C400257D2A /* nfl21.jpg */,
+				C3988D1219C186C400257D2A /* nfl22.jpg */,
+				C3988D1319C186C400257D2A /* nfl23.jpg */,
+				C3988D1419C186C400257D2A /* nfl24.jpg */,
+				C3988D1519C186C400257D2A /* nfl25.jpg */,
+				C3988D1619C186C400257D2A /* nfl26.png */,
+				C3988D1719C186C400257D2A /* nfl27.jpg */,
+				C3988D1819C186C400257D2A /* nfl28.jpg */,
+				C3988D1919C186C400257D2A /* nfl29.png */,
+				C3988D1A19C186C400257D2A /* nfl30.jpg */,
+				C3988D1B19C186C400257D2A /* nfl31.jpg */,
+				C3988D1C19C186C400257D2A /* nfl32.jpg */,
+				C3988CFC19C17AED00257D2A /* NFLlogo.jpg */,
+				C3988CFA19C1723B00257D2A /* facebook-logo-2_zps9777ced2.png */,
+				C3988CC919C16D9900257D2A /* Supporting Files */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +366,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3988D2C19C186C400257D2A /* nfl17.jpg in Resources */,
+				C3988D2A19C186C400257D2A /* nfl15.jpg in Resources */,
+				C3988D3719C186C400257D2A /* nfl28.jpg in Resources */,
+				C3988D2E19C186C400257D2A /* nfl19.jpg in Resources */,
 				C3988CDB19C16D9900257D2A /* Images.xcassets in Resources */,
+				C3988D2219C186C400257D2A /* nfl7.jpg in Resources */,
+				C3988CFB19C1723B00257D2A /* facebook-logo-2_zps9777ced2.png in Resources */,
+				C3988D1F19C186C400257D2A /* nfl3.jpg in Resources */,
+				C3988D1E19C186C400257D2A /* nfl2.jpg in Resources */,
+				C3988D3B19C186C400257D2A /* nfl32.jpg in Resources */,
+				C3988D3D19C186E200257D2A /* nfl6.jpg in Resources */,
+				C3988D2419C186C400257D2A /* nfl9.jpg in Resources */,
+				C3988D2B19C186C400257D2A /* nfl16.jpg in Resources */,
+				C3988D3919C186C400257D2A /* nfl30.jpg in Resources */,
+				C3988D3419C186C400257D2A /* nfl25.jpg in Resources */,
+				C3988D3319C186C400257D2A /* nfl24.jpg in Resources */,
+				C3988D3519C186C400257D2A /* nfl26.png in Resources */,
+				C3988D2019C186C400257D2A /* nfl4.jpg in Resources */,
+				C3988D2519C186C400257D2A /* nfl10.jpg in Resources */,
+				C3988CFD19C17AED00257D2A /* NFLlogo.jpg in Resources */,
+				C3988D2919C186C400257D2A /* nfl14.jpg in Resources */,
+				C3988D2819C186C400257D2A /* nfl13.jpg in Resources */,
+				C3988D2319C186C400257D2A /* nfl8.jpg in Resources */,
+				C3988D3119C186C400257D2A /* nfl22.jpg in Resources */,
+				C3988D3819C186C400257D2A /* nfl29.png in Resources */,
+				C3988D2119C186C400257D2A /* nfl5.jpg in Resources */,
+				C3988D3219C186C400257D2A /* nfl23.jpg in Resources */,
+				C3988D2719C186C400257D2A /* nfl12.jpg in Resources */,
+				C3988D2F19C186C400257D2A /* nfl20.jpg in Resources */,
+				C3988D3A19C186C400257D2A /* nfl31.jpg in Resources */,
+				C3988D2D19C186C400257D2A /* nfl18.jpg in Resources */,
 				C3988CCD19C16D9900257D2A /* InfoPlist.strings in Resources */,
+				C3988D3619C186C400257D2A /* nfl27.jpg in Resources */,
+				C3988D2619C186C400257D2A /* nfl11.jpg in Resources */,
+				C3988D3019C186C400257D2A /* nfl21.jpg in Resources */,
+				C3988D1D19C186C400257D2A /* nfl1.jpg in Resources */,
 				C3988CD619C16D9900257D2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +422,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3988CD919C16D9900257D2A /* ViewController.m in Sources */,
+				C3988D4019C19ACC00257D2A /* fbcredentialsViewController.m in Sources */,
+				C3043BF519C1C20700AF8C86 /* myCell.m in Sources */,
+				C3988D4319C1A21000257D2A /* individualLogoViewController.m in Sources */,
+				C3043BF219C1A94600AF8C86 /* logosCollectionViewController.m in Sources */,
 				C3988CD319C16D9900257D2A /* AppDelegate.m in Sources */,
+				C3B2E72419C2FDD8001CE834 /* fbLoginPage.m in Sources */,
 				C3988CCF19C16D9900257D2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,9 +553,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NFLtrivia/NFLtrivia-Prefix.pch";
 				INFOPLIST_FILE = "NFLtrivia/NFLtrivia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,9 +571,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NFLtrivia/NFLtrivia-Prefix.pch";
 				INFOPLIST_FILE = "NFLtrivia/NFLtrivia-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +643,7 @@
 				C3988CF319C16D9900257D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3988CF419C16D9900257D2A /* Build configuration list for PBXNativeTarget "NFLtriviaTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +652,7 @@
 				C3988CF619C16D9900257D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
