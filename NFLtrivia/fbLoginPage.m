@@ -7,6 +7,15 @@
 //
 
 #import "fbLoginPage.h"
+#import "firstCategoryDuplicateViewController.h"
+
+
+NSString *firstName;
+NSString *lastName;
+NSString *facebookId;
+NSString *imageUrl;
+
+
 
 
 @interface fbLoginPage ()
@@ -28,16 +37,110 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [FBLoginView class];
+
  
     FBLoginView *loginView = [[FBLoginView alloc] init];
     loginView.delegate = self;
   
     self.loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
+  
     
-    [self openFacebookSession];
+    timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(onTick:) userInfo:nil repeats:YES];
+   
+    NSLog(@"nameeeeee ");
+    
+    [self.navigationController setNavigationBarHidden:YES];
+}
+
+
+-(void)onTick:(NSTimer*)timer{
+    
+    
+    
+    [self retrieveDetails];
+    
+    
+
+    
+}
+
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    
+    // Call FBAppCall's handleOpenURL:sourceApplication to handle Facebook app responses
+    BOOL wasHandled = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+
+    // You can add your app-specific url handling code here if needed
+    
+    return wasHandled;
+     
+}
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+}
+
+
+
+
+
+
+-(void)retrieveDetails
+{
+   
+    
+    NSLog(@"retrieve details");
+    
+    if (FBSession.activeSession.isOpen) {
+        
+        [[FBRequest requestForMe] startWithCompletionHandler:
+         ^(FBRequestConnection *connection,
+           NSDictionary<FBGraphUser> *user,
+           NSError *error) {
+             if (!error) {
+                 firstName = user.first_name;
+                lastName = user.last_name;
+                 facebookId = user.objectID;
+                 NSString *email = [user objectForKey:@"email"];
+                imageUrl = [[NSString alloc] initWithFormat: @"http://graph.facebook.com/%@/picture?type=large", facebookId];
+                 
+                 
+                 NSLog(@"firstname%@",firstName);
+                 NSLog(@"lastname%@",lastName);
+                 NSLog(@"facebukid%@",facebookId);
+                 NSLog(@"email%@",email);
+                 NSLog(@"imageurl%@",imageUrl);
+               
+               
+                [self sessionForFacebook];
+                 
+             }
+         }];
+        
+    }
     
     
 }
+
+
+-(void)sessionForFacebook
+{
+    if (![facebookId  isEqual: @""]) {
+          [self openFacebookSession];
+        
+        
+    }
+}
+
+
+
 
 
 // This method will be called when the user information has been fetched
@@ -45,11 +148,15 @@
                             user:(id<FBGraphUser>)user {
     self.profilePictureView.profileID = user.objectID;
     self.nameLabel.text = user.name;
+//NSLog(@"nameeeeeenhvjghjg ");
+    
 }
 
 // Logged-in user experience
 - (void)loginViewShowingLoggedInUser:(FBLoginView *)loginView {
     self.statusLabel.text = @"You're logged in as";
+    
+  NSLog(@"nameeeeeenhvjghjg ");
 }
 /*
 // Logged-out user experience
@@ -69,43 +176,56 @@
 
 - (void)openFacebookSession
 {
+    [timer invalidate];
+    timer = nil;
+    
     NSArray *permissions = [[NSArray alloc] initWithObjects:
                             @"user_photos",
                             nil];
+    
     [FBSession openActiveSessionWithReadPermissions:permissions
                                    allowLoginUI:YES
                               completionHandler: ^(FBSession *session, FBSessionState state, NSError *error){
                                   [self sessionStateChanged:session state:state error:error];
+                                 
+                                  
                               }];
+     NSLog(@"hidfdfd");
 }
-
-
 
 
 - (void)sessionStateChanged:(FBSession *)session
                       state:(FBSessionState) state
                       error:(NSError *)error
 {
+    NSLog(@"state of fb :%lu",state);
     switch (state) {
         case FBSessionStateOpen:
         {
             NSLog(@"FBSessionStateOpen");
             
-            //[activityIndicator startAnimating];
-            // initialize the viewcontroller with a little delay, so that the UI displays the changes made above
-            double delayInSeconds = 0.1;
-            dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
-            dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-                
-                UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
-                                                                         bundle: nil];
-                
-                UIViewController *controller = [mainStoryboard instantiateViewControllerWithIdentifier: @"MainViewController"];
-                
-                [self presentViewController:controller animated:YES completion:nil];
-                
-                //[activityIndicator stopAnimating];
-            });
+            
+           
+         double delayInSeconds = 0.100;
+           dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+           dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+               
+               firstCategoryDuplicateViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MainViewController"];
+               [self.navigationController pushViewController:secondViewController animated:YES];
+               
+               secondViewController.userId=facebookId;
+               secondViewController.profileUrl=imageUrl;
+               secondViewController.firstName=firstName;
+               secondViewController.lastName=lastName;
+               
+         //      NSLog(@"fir%@",firstName);
+            //   NSLog(@"las%@",lastName);
+             //  NSLog(@"facid%@",facebookId);
+              
+              // NSLog(@"imal%@",imageUrl);
+
+             
+           });
             
             break;
         }
@@ -138,6 +258,10 @@
         [alertView show];
     }
 }
+
+
+
+
 
 
 
@@ -183,6 +307,8 @@
                           otherButtonTitles:nil] show];
     }
 }
+
+
 
 
 @end
